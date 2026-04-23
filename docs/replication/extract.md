@@ -49,7 +49,7 @@ DISCARDFILE ./dirrpt/EXTEMP.dsc, APPEND, MEGABYTES 100
 6. Klik **Create and Run**
 
 <div style="text-align: center;">
-  <img src="../assets/images/extract-running.png" alt="Extract Running" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="../../assets/images/extract-running.png" alt="Extract Running" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
   <p><em>placeholder: extract-running.png — Screenshot Extract EXTEMP berstatus Running</em></p>
 </div>
 
@@ -67,7 +67,7 @@ Pastikan EXTEMP berstatus **Running** di halaman Overview.
 2. Setelah ada transaksi di database source, tabel `RAFI.EMPLOYEES` dan `RAFI.TRANSAKSI_QRIS` akan muncul dengan jumlah Inserts/Updates/Deletes
 
 <div style="text-align: center;">
-  <img src="../assets/images/extract-statistics.png" alt="Extract Statistics" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="../../assets/images/extract-statistics.png" alt="Extract Statistics" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
   <p><em>placeholder: extract-statistics.png — Screenshot statistics Extract EXTEMP</em></p>
 </div>
 

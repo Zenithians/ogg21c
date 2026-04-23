@@ -34,7 +34,7 @@ Login: `ggadmin` / `@Rafi1234`
 
 
 <div style="text-align: center;">
-  <img src="../assets/images/credential-vm1.png" alt="Credential VM1" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="../../assets/images/credential-vm1.png" alt="Credential VM1" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
   <p><em>Screenshot halaman Credentials di Administration Service VM1</em></p>
 </div>
 
@@ -70,7 +70,7 @@ Login: `ggadmin` / `@Rafi1234`
 5. Test koneksi dengan klik icon **=**
 
 <div style="text-align: center;">
-  <img src="../assets/images/kredensial-vm2.png" alt="Credential VM2" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="../../assets/images/kredensial-vm2.png" alt="Credential VM2" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
   <p><em>Screenshot halaman Credentials di Administration Service VM2</em></p>
 </div>
 
@@ -86,7 +86,7 @@ Setelah credential `tgtdb` terhubung:
 4. Klik **Submit**
 
 <div style="text-align: center;">
-  <img src="../assets/images/checkpoint-vm2.png" alt="Checkpoint VM2" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="../../assets/images/checkpoint-vm2.png" alt="Checkpoint VM2" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
   <p><em>Screenshot pendaftaran checkpoint table</em></p>
 </div>
 

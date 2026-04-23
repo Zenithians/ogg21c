@@ -11,7 +11,7 @@ Dokumentasi ini menjelaskan langkah-langkah lengkap untuk menginstal dan mengkon
 Replikasi yang diimplementasikan adalah **Unidirectional Replication** (satu arah), yaitu perubahan data di VM1 (Source) akan secara otomatis direplikasi ke VM2 (Target) secara real-time.
 
 <div style="text-align: center;">
-  <img src="../assets/images/skenario-replicat.png" alt="Diagram Topologi OGG" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="../../assets/images/skenario-replicat.png" alt="Diagram Topologi OGG" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
 </div>
 
 ### Tabel yang Direplikasi
@@ -27,7 +27,7 @@ Replikasi yang diimplementasikan adalah **Unidirectional Replication** (satu ara
 
 
 <div style="text-align: center;">
-  <img src="../assets/images/workflow-ogg.png" alt="Diagram Topologi OGG" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="../../assets/images/workflow-ogg.png" alt="Diagram Topologi OGG" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
 </div>
 
 

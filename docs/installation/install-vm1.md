@@ -167,7 +167,7 @@ Login dengan:
 - **Password:** `@Rafi1234`
 
 <div style="text-align: center;">
-  <img src="../assets/images/service-mgr-vm1.jpeg" alt="Service Manager VM1" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="../../assets/images/service-mgr-vm1.jpeg" alt="Service Manager VM1" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
   <p><em>Screenshot tampilan Service Manager VM1</em></p>
 </div>
 

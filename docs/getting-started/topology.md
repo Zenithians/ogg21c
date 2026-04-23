@@ -3,7 +3,7 @@
 ## Diagram Topologi
 
 <div style="text-align: center;">
-  <img src="../assets/images/ogg-topology.png" alt="Diagram Topologi OGG" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="../../assets/images/ogg-topology.png" alt="Diagram Topologi OGG" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
 </div>
 
 ---
@@ -29,7 +29,7 @@
 ## Alur Komunikasi Antar VM
 
 <div style="text-align: center;">
-  <img src="../assets/images/komunikasi-ogg.png" alt="Diagram Topologi OGG" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="../../assets/images/komunikasi-ogg.png" alt="Diagram Topologi OGG" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
 </div>
 
 ---

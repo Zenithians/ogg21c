@@ -45,7 +45,7 @@ Login: `ggadmin` / `@Rafi1234`
 3. Klik **Create and Run**
 
 <div style="text-align: center;">
-  <img src="../assets/images/distribution-running.png" alt="Distribution Running" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="../../assets/images/distribution-running.png" alt="Distribution Running" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
   <p><em>placeholder: distribution-running.png — Screenshot Distribution Path DISTSRC berstatus Running</em></p>
 </div>
 
@@ -73,7 +73,7 @@ Klik **DISTSRC** → tab **Path Information**. Pastikan:
 Klik tab **Statistics**. Setelah ada transaksi, nilai **LCR Read from Trails** dan **LCR Sent** akan berubah dari 0.
 
 <div style="text-align: center;">
-  <img src="../assets/images/distribution-statistics.png" alt="Distribution Statistics" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="../../assets/images/distribution-statistics.png" alt="Distribution Statistics" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
   <p><em>placeholder: distribution-statistics.png — Screenshot statistics Distribution Path</em></p>
 </div>
 

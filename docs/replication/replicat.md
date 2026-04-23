@@ -58,7 +58,7 @@ MAP RAFI.EMPLOYEES, TARGET RAFI.EMPLOYEES;
 6. Klik **Create and Run**
 
 <div style="text-align: center;">
-  <img src="../assets/images/replicat-running.png" alt="Replicat Running" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="../../assets/images/replicat-running.png" alt="Replicat Running" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
   <p><em>Screenshot Replicat REPEMP berstatus Running</em></p>
 </div>
 
@@ -79,7 +79,7 @@ Klik **REPEMP** → tab **Checkpoint**. Pastikan **Sequence** dan **Offset** ber
 Klik tab **Statistics**. Setelah ada transaksi di VM1, nilai **Inserts/Updates/Deletes** akan bertambah.
 
 <div style="text-align: center;">
-  <img src="../assets/images/replicat-statistics.png" alt="Replicat Statistics" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="../../assets/images/replicat-statistics.png" alt="Replicat Statistics" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
   <p><em>Screenshot statistics Replicat REPEMP</em></p>
 </div>
 

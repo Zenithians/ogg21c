@@ -107,7 +107,7 @@ http://192.168.245.133:55000
 ```
 
 <div style="text-align: center;">
-  <img src="../assets/images/service-mgr-vm2.png" alt="Service Manager VM2" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="../../assets/images/service-mgr-vm2.png" alt="Service Manager VM2" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
   <p><em>Screenshot tampilan Service Manager VM2</em></p>
 </div>
 
