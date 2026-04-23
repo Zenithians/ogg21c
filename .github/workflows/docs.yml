@@ -36,6 +36,22 @@ jobs:
       - name: Build documentation
         run: zensical build --clean
 
+      - name: Ensure all image assets are included
+        run: |
+          mkdir -p site/assets/images
+          cp -a docs/assets/images/. site/assets/images/
+
+      - name: Verify image asset count
+        run: |
+          docs_count=$(find docs/assets/images -type f | wc -l)
+          site_count=$(find site/assets/images -type f | wc -l)
+          echo "docs/assets/images files: ${docs_count}"
+          echo "site/assets/images files: ${site_count}"
+          if [ "$site_count" -lt "$docs_count" ]; then
+            echo "ERROR: Some images are missing in site/assets/images"
+            exit 1
+          fi
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
