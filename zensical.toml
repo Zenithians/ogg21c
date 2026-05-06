@@ -11,13 +11,13 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "Oracle GoldenGate 21c"
+site_name = "Oracle GoldenGate Documentation"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "Panduan lengkap instalasi dan konfigurasi Oracle GoldenGate 21c untuk replikasi data Oracle Database"
+site_description = "Dokumentasi Oracle GoldenGate untuk konsep, komponen, dan implementasi lintas versi serta database"
 
 # The site_author attribute. This is used in the HTML head element.
 #
@@ -46,32 +46,69 @@ Copyright &copy; 2026 All rights reserved!
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
   { "Beranda" = "index.md" },
-  { "Persiapan" = [
-      { "Gambaran Umum" = "getting-started/overview.md" },
-      { "Prasyarat" = "getting-started/requirements.md" },
-      { "Topologi" = "getting-started/topology.md" },
+  { "Introduction" = [
+      { "Overview" = "introduction/index.md" },
+      { "Pengenalan OGG" = "introduction/pengenalan-ogg.md" },
+      { "Topologi" = "introduction/topologi.md" },
+      { "Kelebihan" = "introduction/kelebihan.md" },
     ]
   },
-  { "Instalasi" = [
-      { "Instalasi OGG VM1 (Source)" = "installation/install-vm1.md" },
-      { "Instalasi OGG VM2 (Target)" = "installation/install-vm2.md" },
-      { "Konfigurasi IP Statis" = "installation/static-ip.md" },
+  { "Komponen OGG" = [
+      { "Overview" = "components/index.md" },
+      { "Extract" = "components/extract.md" },
+      { "Replicat" = "components/replicat.md" },
+      { "Data Pump" = "components/data-pump.md" },
+      { "Distribution" = "components/distribution.md" },
+      { "Trail File" = "components/trail-file.md" },
     ]
   },
-  { "Konfigurasi" = [
-      { "Konfigurasi Database Source" = "configuration/database-source.md" },
-      { "Konfigurasi Database Target" = "configuration/database-target.md" },
-      { "Konfigurasi Credential OGG" = "configuration/credentials.md" },
+  { "Implementasi OGG" = [
+      { "Overview" = "implementation/index.md" },
+      { "Versi 19" = [
+          { "Overview" = "implementation/19/index.md" },
+          { "SQL Server to SQL Server" = [
+              { "Overview" = "implementation/19/sqlserver-to-sqlserver/index.md" },
+              { "Persiapan" = "implementation/19/sqlserver-to-sqlserver/persiapan.md" },
+              { "Arsitektur" = "implementation/19/sqlserver-to-sqlserver/arsitektur.md" },
+              { "Phase 1 - Install SQL Server" = "implementation/19/sqlserver-to-sqlserver/fase/phase1-sqlserver.md" },
+              { "Phase 2 - Setup Database" = "implementation/19/sqlserver-to-sqlserver/fase/phase2-database.md" },
+              { "Phase 3 - ODBC Driver" = "implementation/19/sqlserver-to-sqlserver/fase/phase3-odbc.md" },
+              { "Phase 4 - Install OGG" = "implementation/19/sqlserver-to-sqlserver/fase/phase4-ogg-install.md" },
+              { "Phase 5 - SQL Server Config" = "implementation/19/sqlserver-to-sqlserver/fase/phase5-sqlserver-config.md" },
+              { "Phase 6 - OGG Config" = "implementation/19/sqlserver-to-sqlserver/fase/phase6-ogg-config.md" },
+              { "Phase 7 - Parameter Files" = "implementation/19/sqlserver-to-sqlserver/fase/phase7-parameter-files.md" },
+              { "Phase 8 - Start OGG" = "implementation/19/sqlserver-to-sqlserver/fase/phase8-start-ogg.md" },
+              { "Phase 9 - Testing" = "implementation/19/sqlserver-to-sqlserver/fase/phase9-testing.md" },
+              { "GGSCI Commands" = "implementation/19/sqlserver-to-sqlserver/referensi/ggsci-commands.md" },
+              { "Troubleshooting" = "implementation/19/sqlserver-to-sqlserver/referensi/troubleshooting.md" },
+            ]
+          },
+        ]
+      },
+      { "Versi 21" = [
+          { "Overview" = "implementation/21/index.md" },
+          { "Oracle to Oracle" = [
+              { "Overview" = "implementation/21/oracle-to-oracle/index.md" },
+              { "Gambaran Umum" = "implementation/21/oracle-to-oracle/getting-started/overview.md" },
+              { "Prasyarat" = "implementation/21/oracle-to-oracle/getting-started/requirements.md" },
+              { "Topologi" = "implementation/21/oracle-to-oracle/getting-started/topology.md" },
+              { "Instalasi OGG VM1 (Source)" = "implementation/21/oracle-to-oracle/installation/install-vm1.md" },
+              { "Instalasi OGG VM2 (Target)" = "implementation/21/oracle-to-oracle/installation/install-vm2.md" },
+              { "Konfigurasi IP Statis" = "implementation/21/oracle-to-oracle/installation/static-ip.md" },
+              { "Konfigurasi Database Source" = "implementation/21/oracle-to-oracle/configuration/database-source.md" },
+              { "Konfigurasi Database Target" = "implementation/21/oracle-to-oracle/configuration/database-target.md" },
+              { "Konfigurasi Credential OGG" = "implementation/21/oracle-to-oracle/configuration/credentials.md" },
+              { "Extract" = "implementation/21/oracle-to-oracle/replication/extract.md" },
+              { "Distribution Path" = "implementation/21/oracle-to-oracle/replication/distribution.md" },
+              { "Replicat" = "implementation/21/oracle-to-oracle/replication/replicat.md" },
+              { "Verifikasi Replikasi" = "implementation/21/oracle-to-oracle/replication/verification.md" },
+              { "Troubleshooting" = "implementation/21/oracle-to-oracle/troubleshooting/index.md" },
+            ]
+          },
+        ]
+      },
     ]
   },
-  { "Replikasi" = [
-      { "Extract (Source)" = "replication/extract.md" },
-      { "Distribution Path" = "replication/distribution.md" },
-      { "Replicat (Target)" = "replication/replicat.md" },
-      { "Verifikasi Replikasi" = "replication/verification.md" },
-    ]
-  },
-  { "Troubleshooting" = "troubleshooting/index.md" },
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize

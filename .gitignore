@@ -1,5 +1,6 @@
 # Build output
 site/
+oggsql/
 
 # Python cache
 __pycache__/
