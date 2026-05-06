@@ -9,3 +9,4 @@ Bagian ini menjelaskan komponen utama Oracle GoldenGate yang muncul dalam berbag
 - [Data Pump](data-pump.md)
 - [Distribution](distribution.md)
 - [Trail File](trail-file.md)
+- [Komponen Tambahan](komponen-tambahan.md)
