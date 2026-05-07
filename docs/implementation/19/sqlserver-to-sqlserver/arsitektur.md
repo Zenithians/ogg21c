@@ -6,7 +6,7 @@ Oracle GoldenGate bekerja dengan menangkap perubahan data (`INSERT`, `UPDATE`, `
 
 ## Alur Data
 
-div style="text-align: center;">
+<div style="text-align: center;">
   <img src="../../../assets/images/ogg19/alur-data.png" alt="Diagram Alur Dasar OGG" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
 </div>
 
@@ -40,6 +40,7 @@ div style="text-align: center;">
 OGG memanfaatkan fitur **CDC bawaan SQL Server** untuk menangkap perubahan transaksi tanpa membebani performa database secara signifikan.
 
 Prasyarat CDC:
+
 - Recovery model database harus `FULL`
 - SQL Server Agent harus aktif (`Running`)
 - CDC harus diaktifkan pada database dan tabel yang direplikasi
