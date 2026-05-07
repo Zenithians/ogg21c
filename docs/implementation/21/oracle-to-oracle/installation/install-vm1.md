@@ -168,14 +168,13 @@ Login dengan:
 
 <div style="text-align: center;">
   <img src="../../../../assets/images/ogg21/service-mgr-vm1.jpeg" alt="Service Manager VM1" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
-  <p><em>Screenshot tampilan Service Manager VM1</em></p>
 </div>
 
 Tampilan Service Manager menunjukkan deployment **oggsource** dengan 3 service Running:
 
-- Administration Service (9001) — Running ✅
-- Distribution Service (9002) — Running ✅
-- Receiver Service (9003) — Running ✅
+- Administration Service (9001) — Running 
+- Distribution Service (9002) — Running 
+- Receiver Service (9003) — Running 
 
 !!! success "Instalasi Berhasil"
     Jika Service Manager dapat diakses dan deployment oggsource berstatus Running, instalasi OGG di VM1 telah berhasil.

@@ -1,8 +1,8 @@
-# Phase 7 — Membuat Parameter Files
+# Membuat Parameter Files
 
 Parameter files adalah file konfigurasi untuk setiap proses OGG. Jalankan semua perintah di bawah ini melalui **CMD as Administrator**.
 
-## 7.1 Manager Source (`mgr.prm`)
+## Manager Source (`mgr.prm`)
 
 ```cmd
 (
@@ -22,7 +22,7 @@ AUTORESTART EXTRACT *, RETRIES 5, WAITMINUTES 3
 PURGEOLDEXTRACTS ./dirdat/*, USECHECKPOINTS, MINKEEPDAYS 3
 ```
 
-## 7.2 Extract (`ext1.prm`)
+## Extract (`ext1.prm`)
 
 ```cmd
 (
@@ -44,7 +44,7 @@ EXTTRAIL ./dirdat/lt
 TABLE dbo.employees;
 ```
 
-## 7.3 Data Pump (`pump1.prm`)
+## Data Pump (`pump1.prm`)
 
 ```cmd
 (
@@ -71,7 +71,7 @@ TABLE dbo.employees;
 !!! note "RMTHOST"
     Ganti `localhost` dengan IP address PC Target jika Source dan Target berada di mesin yang berbeda.
 
-## 7.4 Manager Target (`mgr.prm`)
+## Manager Target (`mgr.prm`)
 
 ```cmd
 (
@@ -91,7 +91,7 @@ AUTORESTART REPLICAT *, RETRIES 5, WAITMINUTES 3
 PURGEOLDEXTRACTS ./dirdat/*, USECHECKPOINTS, MINKEEPDAYS 3
 ```
 
-## 7.5 Replicat (`rep1.prm`)
+## Replicat (`rep1.prm`)
 
 ```cmd
 (

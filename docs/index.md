@@ -15,8 +15,6 @@ Setiap implementasi diletakkan berdasarkan versi dan pasangan database. Dengan p
 | 19 | SQL Server to SQL Server | `implementation/19/sqlserver-to-sqlserver/` |
 | 21 | Oracle to Oracle | `implementation/21/oracle-to-oracle/` |
 
-!!! note "Catatan"
-    Materi dari folder `oggsql` berisi panduan OGG untuk SQL Server. Jika nanti ada implementasi MySQL to MySQL, PostgreSQL to Oracle, atau database lain, cukup tambahkan folder baru di bawah versi yang sesuai.
 
 ## Mulai Membaca
 

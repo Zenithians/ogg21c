@@ -21,12 +21,12 @@ Pisahkan konfigurasi untuk development, staging, dan production.
 
 Hal yang sebaiknya dibedakan:
 
-- host dan IP,
-- user database,
-- credential alias,
-- port Manager atau service,
-- folder trail,
-- schema atau tabel yang direplikasi.
+- Host dan IP,
+- User database,
+- Credential alias,
+- Port Manager atau service,
+- Folder trail,
+- Schema atau tabel yang direplikasi.
 
 ## Gunakan Credential Store
 
@@ -69,23 +69,23 @@ Lag harus dicek rutin, bukan hanya saat ada error.
 
 Pantau:
 
-- lag Extract,
-- lag Data Pump atau Distribution,
-- lag Replicat,
-- ukuran trail,
-- transaksi besar yang belum selesai.
+- Lag Extract,
+- Lag Data Pump atau Distribution,
+- Lag Replicat,
+- Ukuran trail,
+- Transaksi besar yang belum selesai.
 
 ## Dokumentasikan Parameter
 
 Simpan catatan untuk:
 
-- nama proses,
-- nama trail,
-- tabel yang direplikasi,
-- mapping schema,
-- credential alias,
-- port yang dipakai,
-- lokasi report dan discard file.
+- Nama proses,
+- Nama trail,
+- Tabel yang direplikasi,
+- Mapping schema,
+- Credential alias,
+- Port yang dipakai,
+- Lokasi report dan discard file.
 
 Dokumentasi kecil seperti ini sangat membantu saat handover atau incident.
 
@@ -93,12 +93,12 @@ Dokumentasi kecil seperti ini sangat membantu saat handover atau incident.
 
 Sebelum production, minimal lakukan:
 
-- insert, update, delete,
-- transaksi banyak record,
-- restart Extract dan Replicat,
-- simulasi jaringan putus,
-- cek data source dan target,
-- cek behavior saat constraint target aktif.
+- Insert, update, delete,
+- Transaksi banyak record,
+- Restart Extract dan Replicat,
+- Simulasi jaringan putus,
+- Cek data source dan target,
+- Cek behavior saat constraint target aktif.
 
 ## Hindari Perubahan DDL Sembarangan
 
@@ -106,8 +106,8 @@ Perubahan struktur tabel bisa memengaruhi replikasi.
 
 Sebelum mengubah DDL:
 
-- cek apakah tabel sedang direplikasi,
-- sesuaikan struktur target,
-- review parameter mapping,
-- siapkan rollback plan,
-- lakukan di window maintenance jika perlu.
+- Cek apakah tabel sedang direplikasi,
+- Sesuaikan struktur target,
+- Review parameter mapping,
+- Siapkan rollback plan,
+- Lakukan di window maintenance jika perlu.

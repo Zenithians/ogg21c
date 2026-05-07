@@ -62,10 +62,10 @@ Latency adalah jeda waktu antara perubahan di source dan perubahan tersebut munc
 
 Lag bisa muncul karena:
 
-- transaksi source sangat besar,
-- jaringan lambat atau putus,
-- disk tempat trail penuh atau lambat,
+- Transaksi source sangat besar,
+- Jaringan lambat atau putus,
+- Disk tempat trail penuh atau lambat,
 - Replicat lambat apply ke target,
-- target database sedang sibuk.
+- Target database sedang sibuk.
 
 Monitoring lag menjadi bagian penting dari operasional harian OGG.

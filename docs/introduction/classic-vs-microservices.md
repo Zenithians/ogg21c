@@ -29,15 +29,9 @@ Komponen yang sering dipakai:
 
 Contoh pola umum:
 
-```text
-Source DB
-  -> Extract
-  -> Local Trail
-  -> Data Pump
-  -> Remote Trail
-  -> Replicat
-  -> Target DB
-```
+<div style="text-align: center;">
+  <img src="../assets/images/common/alur-dasar.png.png" alt="Diagram Alur Dasar OGG" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+</div>
 
 ## Microservices Architecture
 
@@ -56,36 +50,27 @@ Komponen yang sering dipakai:
 
 Contoh pola umum:
 
-```text
-Source DB
-  -> Extract
-  -> Trail
-  -> Distribution Service
-  -> Receiver Service
-  -> Remote Trail
-  -> Replicat
-  -> Target DB
-```
+<div style="text-align: center;">
+  <img src="../assets/images/common/microservices.png.png" alt="Diagram Alur Dasar OGG" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+</div>
 
 ## Kapan Menggunakan Classic
 
 Classic cocok ketika:
 
-- lingkungan sudah memakai OGG versi lama,
-- tim lebih nyaman dengan GGSCI,
-- deployment kecil dan sederhana,
-- automation sudah dibangun berbasis script CLI.
+- Lingkungan sudah memakai OGG versi lama,
+- Tim lebih nyaman dengan GGSCI,
+- Deployment kecil dan sederhana,
+- Automation sudah dibangun berbasis script CLI.
 
 ## Kapan Menggunakan Microservices
 
 Microservices cocok ketika:
 
-- butuh web interface untuk administrasi,
-- ingin integrasi dengan REST API,
-- ingin monitoring yang lebih mudah,
-- deployment perlu dikelola lebih terstruktur,
-- memakai OGG versi modern seperti 21c.
+- Butuh web interface untuk administrasi,
+- Ingin integrasi dengan REST API,
+- Ingin monitoring yang lebih mudah,
+- Deployment perlu dikelola lebih terstruktur,
+- Memakai OGG versi modern seperti 21c.
 
-## Hubungan dengan Dokumentasi Ini
 
-Implementasi SQL Server to SQL Server di dokumentasi ini mengikuti gaya Classic, sedangkan implementasi Oracle to Oracle 21c memakai Microservices.

@@ -18,12 +18,12 @@ Saat terjadi masalah, mulai dari urutan ini:
 
 Penyebab umum:
 
-- credential database salah,
-- privilege user OGG kurang,
-- supplemental logging belum aktif,
-- source database tidak bisa diakses,
-- parameter file salah,
-- log yang dibutuhkan sudah tidak tersedia.
+- Credential database salah,
+- Privilege user OGG kurang,
+- Supplemental logging belum aktif,
+- Source database tidak bisa diakses,
+- Parameter file salah,
+- Log yang dibutuhkan sudah tidak tersedia.
 
 Yang perlu dicek:
 
@@ -38,12 +38,12 @@ Untuk Microservices, cek report dari Administration Service.
 
 Penyebab umum:
 
-- tabel target tidak ada,
-- struktur kolom source dan target berbeda,
-- primary key atau unique key bermasalah,
-- constraint target menolak data,
-- mapping table salah,
-- trail file rusak atau tidak lengkap.
+- Tabel target tidak ada,
+- Struktur kolom source dan target berbeda,
+- Primary key atau unique key bermasalah,
+- Constraint target menolak data,
+- Mapping table salah,
+- Trail file rusak atau tidak lengkap.
 
 Yang perlu dicek:
 
@@ -61,63 +61,63 @@ Penyebab umum:
 - Data Pump mati,
 - Distribution Path berhenti,
 - Receiver Service tidak running,
-- port target tertutup firewall,
-- hostname atau IP target salah,
-- disk target penuh.
+- Port target tertutup firewall,
+- Hostname atau IP target salah,
+- Disk target penuh.
 
 Yang perlu dicek:
 
-- status Data Pump atau Distribution,
-- port Manager atau Receiver,
-- ukuran local trail,
-- koneksi jaringan source ke target,
-- log Manager atau Distribution Service.
+- Status Data Pump atau Distribution,
+- Port Manager atau Receiver,
+- Ukuran local trail,
+- Koneksi jaringan source ke target,
+- Log Manager atau Distribution Service.
 
 ## Lag Tinggi
 
 Penyebab umum:
 
-- transaksi source sangat besar,
-- target database lambat,
-- index target terlalu banyak,
-- jaringan lambat,
-- disk trail lambat,
+- Transaksi source sangat besar,
+- Target database lambat,
+- Index target terlalu banyak,
+- Jaringan lambat,
+- Disk trail lambat,
 - Replicat hanya berjalan single-thread untuk beban besar.
 
 Langkah awal:
 
-- cek proses mana yang lag,
-- cek apakah Extract, Pump, atau Replicat yang tertinggal,
-- cek report rate,
-- cek beban database target,
-- cek transaksi long-running di source.
+- Cek proses mana yang lag,
+- Cek apakah Extract, Pump, atau Replicat yang tertinggal,
+- Cek report rate,
+- Cek beban database target,
+- Cek transaksi long-running di source.
 
 ## Credential Error
 
 Penyebab umum:
 
-- alias credential salah,
-- domain credential salah,
-- password database berubah,
-- user database locked,
-- service name atau DSN salah.
+- Alias credential salah,
+- Domain credential salah,
+- Password database berubah,
+- User database locked,
+- Service name atau DSN salah.
 
 Yang perlu dicek:
 
-- nama credential alias,
-- domain credential,
-- koneksi manual ke database,
-- status user database.
+- Nama credential alias,
+- Domain credential,
+- Koneksi manual ke database,
+- Status user database.
 
 ## Table Not Found
 
 Penyebab umum:
 
-- tabel target belum dibuat,
-- schema mapping salah,
-- nama tabel case-sensitive,
-- parameter `MAP` atau `TABLE` tidak sesuai,
-- user target tidak punya akses ke tabel.
+- Tabel target belum dibuat,
+- Schema mapping salah,
+- Nama tabel case-sensitive,
+- Parameter `MAP` atau `TABLE` tidak sesuai,
+- User target tidak punya akses ke tabel.
 
 Pastikan tabel target tersedia sebelum Replicat dijalankan.
 
@@ -127,9 +127,9 @@ Disk penuh sering terjadi karena trail, report, atau discard file tidak dibersih
 
 Yang perlu dicek:
 
-- folder `dirdat`,
-- folder `dirrpt`,
-- folder log deployment,
-- konfigurasi purge trail.
+- Folder `dirdat`,
+- Folder `dirrpt`,
+- Folder log deployment,
+- Konfigurasi purge trail.
 
 Jangan menghapus trail secara manual sebelum memastikan checkpoint sudah melewati trail tersebut.

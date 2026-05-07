@@ -1,6 +1,6 @@
-# Phase 8 — Menjalankan OGG
+# Menjalankan OGG
 
-## 8.1 Start Source OGG
+## Start Source OGG
 
 Buka CMD as Administrator, jalankan:
 
@@ -34,7 +34,7 @@ GGSCI> INFO ALL
 !!! warning "Urutan Penting"
     Jalankan `START MGR` terlebih dahulu sebelum menambahkan atau menjalankan Extract dan Pump.
 
-## 8.2 Start Target OGG
+## Start Target OGG
 
 Buka CMD **baru** as Administrator, jalankan:
 
@@ -59,7 +59,7 @@ GGSCI> START REPLICAT rep1
 GGSCI> INFO ALL
 ```
 
-## 8.3 Output yang Diharapkan
+## Output yang Diharapkan
 
 Setelah semua proses berjalan, `INFO ALL` harus menampilkan:
 

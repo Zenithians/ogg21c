@@ -6,10 +6,10 @@ Pada database Oracle, Extract biasanya membaca redo log atau archive log. Pada d
 
 ## Fungsi
 
-- membaca perubahan `INSERT`, `UPDATE`, dan `DELETE`,
-- menyaring object yang direplikasi,
-- menulis perubahan ke local trail,
-- menjaga posisi capture agar proses bisa dilanjutkan setelah restart.
+- Membaca perubahan `INSERT`, `UPDATE`, dan `DELETE`,
+- Menyaring object yang direplikasi,
+- Menulis perubahan ke local trail,
+- Menjaga posisi capture agar proses bisa dilanjutkan setelah restart.
 
 ## Output
 

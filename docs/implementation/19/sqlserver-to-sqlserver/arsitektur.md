@@ -6,21 +6,10 @@ Oracle GoldenGate bekerja dengan menangkap perubahan data (`INSERT`, `UPDATE`, `
 
 ## Alur Data
 
-```
-[SQL Server PROD2]
-       |
-   [Extract EXT1]          ← Baca transaction log
-       |
-   [Trail File lt]         ← Simpan sementara di C:\OGG\source\dirdat
-       |
-   [Data Pump PUMP1]       ← Kirim via port 7909
-       |
-   [Remote Trail rt]       ← Terima di C:\OGG\target\dirdat
-       |
-   [Replicat REP1]         ← Terapkan ke SQL Server DRC
-       |
-[SQL Server DRC]
-```
+div style="text-align: center;">
+  <img src="../../../assets/images/ogg19/alur-data.png" alt="Diagram Alur Dasar OGG" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+</div>
+
 
 ## Komponen Arsitektur
 

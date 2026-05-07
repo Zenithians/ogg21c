@@ -59,7 +59,6 @@ MAP RAFI.EMPLOYEES, TARGET RAFI.EMPLOYEES;
 
 <div style="text-align: center;">
   <img src="../../../../assets/images/ogg21/replicat-running.png" alt="Replicat Running" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
-  <p><em>Screenshot Replicat REPEMP berstatus Running</em></p>
 </div>
 
 ---
@@ -80,7 +79,6 @@ Klik tab **Statistics**. Setelah ada transaksi di VM1, nilai **Inserts/Updates/D
 
 <div style="text-align: center;">
   <img src="../../../../assets/images/ogg21/replicat-statistics.png" alt="Replicat Statistics" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
-  <p><em>Screenshot statistics Replicat REPEMP</em></p>
 </div>
 
 ---

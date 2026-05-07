@@ -6,10 +6,10 @@ Replicat membaca trail file, menerjemahkan record perubahan, lalu menjalankan op
 
 ## Fungsi
 
-- membaca remote trail atau local trail,
-- menerapkan `INSERT`, `UPDATE`, dan `DELETE` ke target,
-- menjalankan mapping tabel dan kolom,
-- menjaga checkpoint agar apply bisa dilanjutkan dengan aman.
+- Membaca remote trail atau local trail,
+- Menerapkan `INSERT`, `UPDATE`, dan `DELETE` ke target,
+- Menjalankan mapping tabel dan kolom,
+- Menjaga checkpoint agar apply bisa dilanjutkan dengan aman.
 
 ## Catatan
 

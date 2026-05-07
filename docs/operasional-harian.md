@@ -25,11 +25,11 @@ GGSCI> INFO REPLICAT <nama_replicat>, DETAIL
 
 Microservices Architecture:
 
-- buka Administration Service,
-- cek halaman Overview,
-- cek status Extract dan Replicat,
-- buka Distribution Service untuk status path,
-- buka Receiver Service di target.
+- Buka Administration Service,
+- Cek halaman Overview,
+- Cek status Extract dan Replicat,
+- Buka Distribution Service untuk status path,
+- Buka Receiver Service di target.
 
 ## Cek Lag
 
@@ -42,9 +42,9 @@ GGSCI> LAG REPLICAT <nama_replicat>
 
 Microservices Architecture:
 
-- cek kolom lag di web UI,
-- cek Statistics,
-- cek Performance Metrics Service jika tersedia.
+- Cek kolom lag di web UI,
+- Cek Statistics,
+- Cek Performance Metrics Service jika tersedia.
 
 ## Start dan Stop Process
 
@@ -59,8 +59,8 @@ GGSCI> STOP REPLICAT <nama_replicat>
 
 Microservices Architecture:
 
-- gunakan tombol start/stop di Administration Service,
-- atau gunakan Admin Client sesuai deployment.
+- Gunakan tombol start/stop di Administration Service,
+- Atau gunakan Admin Client sesuai deployment.
 
 ## Cek Report File
 
@@ -72,11 +72,11 @@ GGSCI> VIEW REPORT <nama_process>
 
 Report file biasanya berisi:
 
-- waktu process start,
-- parameter yang dibaca,
-- error detail,
-- statistik operasi,
-- posisi trail.
+- Waktu process start,
+- Parameter yang dibaca,
+- Error detail,
+- Statistik operasi,
+- Posisi trail.
 
 ## Cek Trail File
 
@@ -133,9 +133,9 @@ Urutan ini membantu target siap menerima data sebelum source mulai mengirim peru
 
 Replikasi bisa dianggap sehat jika:
 
-- semua proses running,
-- lag stabil dan rendah,
-- tidak ada error baru di report,
-- trail tidak menumpuk berlebihan,
-- data sample source dan target sesuai,
-- tidak ada record baru di discard file.
+- Semua proses running,
+- Lag stabil dan rendah,
+- Tidak ada error baru di report,
+- Trail tidak menumpuk berlebihan,
+- Data sample source dan target sesuai,
+- Tidak ada record baru di discard file.

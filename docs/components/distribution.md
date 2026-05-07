@@ -6,10 +6,10 @@ Komponen ini menggantikan banyak kebutuhan Data Pump pada arsitektur Microservic
 
 ## Fungsi
 
-- membaca trail dari deployment source,
-- mengirim trail ke Receiver Service pada target,
-- mengelola path distribusi,
-- menyediakan monitoring pengiriman melalui web interface.
+- Membaca trail dari deployment source,
+- Mengirim trail ke Receiver Service pada target,
+- Mengelola path distribusi,
+- Menyediakan monitoring pengiriman melalui web interface.
 
 ## Kapan Digunakan
 

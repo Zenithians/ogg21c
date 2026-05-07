@@ -1,6 +1,6 @@
-# Phase 6 — Konfigurasi OGG
+# Konfigurasi OGG
 
-## 6.1 Setup File GLOBALS
+## Setup File GLOBALS
 
 File GLOBALS harus dibuat di **kedua** folder OGG (source dan target).
 
@@ -29,7 +29,7 @@ GGSCHEMA ggadmin
 !!! danger "File GLOBALS Wajib Ada"
     Jika file GLOBALS tidak ada, OGG akan menampilkan error `GGSCHEMA not specified` dan semua proses tidak bisa dijalankan.
 
-## 6.2 DBLOGIN & ADD TRANDATA (Source)
+## DBLOGIN & ADD TRANDATA (Source)
 
 Buka GGSCI di folder source:
 

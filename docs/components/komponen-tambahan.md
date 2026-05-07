@@ -8,11 +8,11 @@ Manager adalah proses utama pada Classic Architecture yang mengontrol proses OGG
 
 Fungsi Manager:
 
-- menjalankan dan menghentikan proses,
-- menerima koneksi dari Data Pump,
-- mengelola port komunikasi,
-- menjalankan purge trail sesuai konfigurasi,
-- menulis report dan event log.
+- Menjalankan dan menghentikan proses,
+- Menerima koneksi dari Data Pump,
+- Mengelola port komunikasi,
+- Menjalankan purge trail sesuai konfigurasi,
+- Menulis report dan event log.
 
 Contoh parameter umum:
 
@@ -28,10 +28,10 @@ Service Manager adalah service pusat pada Microservices Architecture.
 
 Fungsi Service Manager:
 
-- mengelola deployment OGG,
-- menyediakan akses ke service lain,
-- mengatur lifecycle service,
-- menjadi pintu awal administrasi web.
+- Mengelola deployment OGG,
+- Menyediakan akses ke service lain,
+- Mengatur lifecycle service,
+- Menjadi pintu awal administrasi web.
 
 ## Administration Service
 
@@ -39,11 +39,11 @@ Administration Service digunakan untuk mengelola Extract dan Replicat pada Micro
 
 Fungsi utama:
 
-- membuat Extract,
-- membuat Replicat,
-- mengedit parameter file,
-- start dan stop process,
-- melihat status dan report process.
+- Membuat Extract,
+- Membuat Replicat,
+- Mengedit parameter file,
+- Start dan stop process,
+- Melihat status dan report process.
 
 ## Receiver Service
 
@@ -51,9 +51,9 @@ Receiver Service menerima trail yang dikirim dari Distribution Service.
 
 Fungsi utama:
 
-- menerima data trail dari source,
-- menulis remote trail di target,
-- menjaga koneksi distribusi antar deployment.
+- Menerima data trail dari source,
+- Menulis remote trail di target,
+- Menjaga koneksi distribusi antar deployment.
 
 ## Performance Metrics Service
 
@@ -61,11 +61,11 @@ Performance Metrics Service menyediakan informasi performa dan monitoring.
 
 Data yang biasanya dipantau:
 
-- status process,
-- lag,
-- throughput,
-- statistik operasi,
-- health deployment.
+- Status process,
+- Lag,
+- Throughput,
+- Statistik operasi,
+- Health deployment.
 
 ## Credential Store
 
@@ -98,10 +98,10 @@ Checkpoint table biasanya digunakan Replicat untuk menyimpan posisi apply di dat
 
 Manfaat checkpoint table:
 
-- membantu recovery setelah restart,
-- menghindari apply transaksi ganda,
-- menyimpan posisi apply secara lebih aman,
-- memudahkan monitoring posisi Replicat.
+- Membantu recovery setelah restart,
+- Menghindari apply transaksi ganda,
+- Menyimpan posisi apply secara lebih aman,
+- Memudahkan monitoring posisi Replicat.
 
 ## Heartbeat Table
 

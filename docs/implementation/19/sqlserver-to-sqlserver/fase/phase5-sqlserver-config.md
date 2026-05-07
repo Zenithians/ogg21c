@@ -1,6 +1,6 @@
-# Phase 5 — Konfigurasi SQL Server untuk OGG
+# Konfigurasi SQL Server untuk OGG
 
-## 5.1 Aktifkan SQL Server Agent
+## Aktifkan SQL Server Agent
 
 Di SSMS → **Object Explorer** → **SQL Server Agent** → klik kanan → **Start**
 
@@ -9,7 +9,7 @@ Pastikan statusnya **Running** (ikon hijau).
 !!! warning "SQL Server Agent Wajib"
     CDC Cleanup job membutuhkan SQL Server Agent dalam kondisi Running. Jika Agent tidak aktif, cleanup job tidak akan berjalan.
 
-## 5.2 Buat Login & Aktifkan Mixed Mode Authentication
+## Buat Login & Aktifkan Mixed Mode Authentication
 
 ```sql
 USE master;
@@ -33,7 +33,7 @@ EXEC sp_addsrvrolemember 'ggadmin', 'sysadmin';
 !!! warning "Restart SQL Server"
     Setelah mengaktifkan Mixed Mode, **restart SQL Server** agar perubahan authentication mode berlaku.
 
-## 5.3 Setup User & Schema
+## Setup User & Schema
 
 ```sql
 -- Setup di database PROD2 (Source)
@@ -49,7 +49,7 @@ EXEC sp_addrolemember 'db_owner', 'ggadmin';
 CREATE SCHEMA ggadmin;
 ```
 
-## 5.4 Aktifkan CDC (Change Data Capture)
+## Aktifkan CDC (Change Data Capture)
 
 ```sql
 -- Set recovery model ke FULL (wajib untuk CDC)
@@ -82,7 +82,7 @@ WHERE name = 'employees';
 !!! success "Verifikasi"
     Kolom `is_cdc_enabled` harus bernilai `1` untuk database PROD2, dan `is_tracked_by_cdc` harus `1` untuk tabel `employees`.
 
-## 5.5 Install OGG CDC Cleanup Job
+## Install OGG CDC Cleanup Job
 
 Jalankan di **CMD as Administrator**:
 

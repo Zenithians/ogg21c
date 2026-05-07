@@ -1,6 +1,6 @@
-# Phase 2 — Setup Database PROD2 & DRC
+# Setup Database PROD2 & DRC
 
-## 2.1 Buat Database
+## Buat Database
 
 Jalankan query berikut di SSMS:
 
@@ -15,7 +15,7 @@ FROM sys.databases
 WHERE name IN ('PROD2', 'DRC');
 ```
 
-## 2.2 Buat Tabel di PROD2 (Source)
+## Buat Tabel di PROD2 (Source)
 
 ```sql
 USE PROD2;
@@ -39,7 +39,7 @@ VALUES
 SELECT * FROM dbo.employees;
 ```
 
-## 2.3 Buat Tabel di DRC (Target)
+## Buat Tabel di DRC (Target)
 
 ```sql
 USE DRC;

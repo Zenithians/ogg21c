@@ -6,10 +6,10 @@ Data Pump umum digunakan pada OGG Classic Architecture. Dengan Data Pump, Extrac
 
 ## Fungsi
 
-- membaca local trail,
-- mengirim data perubahan ke host target,
-- menulis remote trail,
-- membantu isolasi gangguan jaringan dari proses capture utama.
+- Membaca local trail,
+- Mengirim data perubahan ke host target,
+- Menulis remote trail,
+- Membantu isolasi gangguan jaringan dari proses capture utama.
 
 ## Manfaat
 

@@ -13,7 +13,7 @@ Trail menjadi penghubung antara proses capture, pengiriman, dan apply. Dengan tr
 
 ## Hal yang Perlu Diperhatikan
 
-- kapasitas disk untuk trail,
-- retention atau pembersihan trail,
-- naming convention trail,
-- checkpoint setiap proses yang membaca trail.
+- Kapasitas disk untuk trail,
+- Retention atau pembersihan trail,
+- Naming convention trail,
+- Checkpoint setiap proses yang membaca trail.

@@ -4,24 +4,18 @@ Oracle GoldenGate (OGG) adalah platform replikasi data yang digunakan untuk mena
 
 OGG umum digunakan untuk:
 
-- replikasi real-time antar database,
-- migrasi database dengan downtime minimal,
-- disaster recovery,
-- integrasi data operasional,
-- distribusi data antar aplikasi atau lokasi.
+- Replikasi real-time antar database,
+- Migrasi database dengan downtime minimal,
+- Disaster recovery,
+- Integrasi data operasional,
+- Distribusi data antar aplikasi atau lokasi.
 
 Pada prinsipnya, OGG membaca perubahan dari database source, menyimpannya ke trail file, lalu mengirim dan menerapkan perubahan tersebut ke database target.
 
 ## Alur Dasar
 
-```text
-Database Source
-  -> Extract
-  -> Local Trail
-  -> Data Pump / Distribution
-  -> Remote Trail
-  -> Replicat
-  -> Database Target
-```
+<div style="text-align: center;">
+  <img src="../assets/images/common/alur-dasar.png" alt="Diagram Alur Dasar OGG" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+</div>
 
-Implementasi detailnya bisa berbeda tergantung versi OGG, tipe database, dan arsitektur yang digunakan, misalnya Classic Architecture atau Microservices Architecture.
+

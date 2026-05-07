@@ -1,6 +1,6 @@
-# Phase 1 — Install SQL Server 2019 & SSMS
+# Install SQL Server 2019 & SSMS
 
-## 1.1 Download SQL Server 2019 Developer
+## Download SQL Server 2019 Developer
 
 Buka halaman download resmi Microsoft:
 
@@ -8,25 +8,25 @@ Buka halaman download resmi Microsoft:
 - Cari **SQL Server 2019** → pilih **Download Developer Edition**
 - Atau download langsung: [https://go.microsoft.com/fwlink/p/?linkid=866658](https://go.microsoft.com/fwlink/p/?linkid=866658)
 
-## 1.2 Instalasi SQL Server 2019
+## Instalasi SQL Server 2019
 
 1. Jalankan installer → pilih **Custom**
 2. Pada **Feature Selection**, centang:
-    - ✅ **Database Engine Services** *(wajib)*
-    - ✅ **SQL Server Replication** *(wajib untuk OGG CDC)*
+    -  **Database Engine Services** *(wajib)*
+    -  **SQL Server Replication** *(wajib untuk OGG CDC)*
 3. Pada **Instance Configuration** → pilih **Named Instance** → isi: `MSQL2019` *(sesuaikan)*
 4. Ikuti wizard hingga selesai
 
 !!! warning "Named Instance"
     Pastikan nama instance ditulis dengan benar karena akan digunakan di seluruh konfigurasi OGG. Contoh: `DESKTOP-MVMVJSO\MSQL2019`
 
-## 1.3 Instalasi SSMS (SQL Server Management Studio)
+## Instalasi SSMS (SQL Server Management Studio)
 
 1. Download dari: [https://aka.ms/ssmsfullsetup](https://aka.ms/ssmsfullsetup)
 2. Jalankan `SSMS-Setup-ENU.exe` sebagai **Administrator**
 3. Klik **Install** → tunggu selesai → **Restart PC**
 
-## 1.4 Connect SSMS ke SQL Server 2019
+## Connect SSMS ke SQL Server 2019
 
 Buka SSMS, isi koneksi:
 
