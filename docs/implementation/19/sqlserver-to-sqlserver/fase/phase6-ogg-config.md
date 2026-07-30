@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/gears
+---
+
 # Konfigurasi OGG
 
 ## Setup File GLOBALS

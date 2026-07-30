@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/chart-line
+---
+
 # Monitoring dan Operasional Harian
 
 Operasional harian OGG bertujuan memastikan proses replikasi tetap running, lag terkendali, dan tidak ada error tersembunyi.

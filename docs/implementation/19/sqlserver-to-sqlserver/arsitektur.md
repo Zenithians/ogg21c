@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/microchip
+---
+
 # Arsitektur OGG
 
 ## Konsep Replikasi

@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/upload
+---
+
 # Extract
 
 Extract adalah proses OGG yang menangkap perubahan data dari database source.

@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/code-fork
+---
+
 # Arsitektur OGG Classic vs Microservices
 
 Oracle GoldenGate memiliki dua gaya arsitektur yang umum ditemui: Classic Architecture dan Microservices Architecture.

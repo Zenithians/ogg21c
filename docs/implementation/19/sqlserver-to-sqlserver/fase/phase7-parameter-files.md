@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/file-lines
+---
+
 # Membuat Parameter Files
 
 Parameter files adalah file konfigurasi untuk setiap proses OGG. Jalankan semua perintah di bawah ini melalui **CMD as Administrator**.

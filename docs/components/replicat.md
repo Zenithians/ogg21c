@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/download
+---
+
 # Replicat
 
 Replicat adalah proses OGG yang menerapkan perubahan data ke database target.

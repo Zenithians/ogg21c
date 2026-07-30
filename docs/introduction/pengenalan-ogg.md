@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/circle-info
+---
+
 # Pengenalan OGG
 
 Oracle GoldenGate (OGG) adalah platform replikasi data yang digunakan untuk menangkap, memindahkan, dan menerapkan perubahan data antar sistem database dengan latensi rendah.

@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/list-check
+---
+
 # Testing Replikasi
 
 ## Test Dasar (INSERT, UPDATE, DELETE)

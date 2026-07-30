@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/server
+---
+
 # Instalasi OGG di VM2 (Target)
 
 !!! info "Catatan"

@@ -1,3 +1,7 @@
+---
+icon: fontawesome/solid/book
+---
+
 # Introduction
 
 Bagian ini menjelaskan konsep dasar Oracle GoldenGate sebelum masuk ke konfigurasi teknis.

@@ -1,3 +1,7 @@
+---
+icon: fontawesome/solid/cubes
+---
+
 # Komponen OGG
 
 Bagian ini menjelaskan komponen utama Oracle GoldenGate yang muncul dalam berbagai implementasi.

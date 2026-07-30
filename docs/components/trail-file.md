@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/file-lines
+---
+
 # Trail File
 
 Trail file adalah file internal OGG yang menyimpan data perubahan hasil capture.

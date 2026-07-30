@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/rotate
+---
+
 # Konsep Dasar CDC
 
 Change Data Capture (CDC) adalah mekanisme untuk menangkap perubahan data dari database tanpa membaca ulang seluruh isi tabel. Perubahan yang ditangkap biasanya berupa `INSERT`, `UPDATE`, dan `DELETE`.

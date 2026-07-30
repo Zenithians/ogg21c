@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/circle-plus
+---
+
 # Komponen Tambahan
 
 Selain Extract, Data Pump, Replicat, Distribution, dan Trail File, ada beberapa komponen pendukung yang penting dipahami saat mengelola Oracle GoldenGate.

@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/database
+---
+
 # Setup Database PROD2 & DRC
 
 ## Buat Database

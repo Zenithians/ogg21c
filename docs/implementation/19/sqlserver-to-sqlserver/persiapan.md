@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/clipboard-list
+---
+
 # Persiapan
 
 Sebelum memulai instalasi, pastikan semua kebutuhan berikut sudah tersedia.

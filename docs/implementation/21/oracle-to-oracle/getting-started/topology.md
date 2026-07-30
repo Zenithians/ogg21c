@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/network-wired
+---
+
 # Topologi Jaringan
 
 ## Diagram Topologi

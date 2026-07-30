@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/circle-check
+---
+
 # Best Practice
 
 Halaman ini merangkum praktik yang disarankan agar implementasi Oracle GoldenGate lebih mudah dirawat, aman, dan stabil.

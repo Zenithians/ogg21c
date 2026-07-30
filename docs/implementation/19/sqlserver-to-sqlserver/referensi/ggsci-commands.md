@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/terminal
+---
+
 # Referensi Command GGSCI
 
 Daftar lengkap perintah GGSCI (GoldenGate Software Command Interface) yang digunakan dalam operasional OGG.

@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/triangle-exclamation
+---
+
 # Troubleshooting Umum
 
 Halaman ini berisi panduan troubleshooting umum yang berlaku untuk banyak implementasi Oracle GoldenGate.

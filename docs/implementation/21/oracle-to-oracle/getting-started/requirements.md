@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/list-check
+---
+
 # Prasyarat Sistem
 
 ## Spesifikasi VM yang Digunakan

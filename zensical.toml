@@ -116,6 +116,38 @@ nav = [
           },
         ]
       },
+      { "Versi 23" = [
+          { "Overview" = "implementation/23/index.md" },
+          { "Oracle to Oracle" = [
+              { "Overview" = "implementation/23/oracle-to-oracle/index.md" },
+              { "Gambaran Umum" = "implementation/23/oracle-to-oracle/getting-started/overview.md" },
+              { "Prasyarat" = "implementation/23/oracle-to-oracle/getting-started/requirements.md" },
+              { "Topologi" = "implementation/23/oracle-to-oracle/getting-started/topology.md" },
+              { "Instalasi OGG VM1 (Source)" = "implementation/23/oracle-to-oracle/installation/install-vm1.md" },
+              { "Instalasi OGG VM2 (Target)" = "implementation/23/oracle-to-oracle/installation/install-vm2.md" },
+              { "Konfigurasi IP Statis" = "implementation/23/oracle-to-oracle/installation/static-ip.md" },
+              { "Konfigurasi Database Source" = "implementation/23/oracle-to-oracle/configuration/database-source.md" },
+              { "Konfigurasi Database Target" = "implementation/23/oracle-to-oracle/configuration/database-target.md" },
+              { "Konfigurasi Credential OGG" = "implementation/23/oracle-to-oracle/configuration/credentials.md" },
+              { "Extract" = "implementation/23/oracle-to-oracle/replication/extract.md" },
+              { "Distribution Path" = "implementation/23/oracle-to-oracle/replication/distribution.md" },
+              { "Replicat" = "implementation/23/oracle-to-oracle/replication/replicat.md" },
+              { "Verifikasi Replikasi" = "implementation/23/oracle-to-oracle/replication/verification.md" },
+              { "Troubleshooting" = "implementation/23/oracle-to-oracle/troubleshooting/index.md" },
+            ]
+          },
+          { "Oracle to Tandem" = [
+              { "Overview" = "implementation/23/oracle-to-tandem/index.md" },
+              { "Installation" = "implementation/23/oracle-to-tandem/installation/index.md" },
+              { "License" = "implementation/23/oracle-to-tandem/license/index.md" },
+              { "BINSKEL" = "implementation/23/oracle-to-tandem/binskel/index.md" },
+              { "Run GGSCI" = "implementation/23/oracle-to-tandem/run-ggsci/index.md" },
+              { "T24 Installation" = "implementation/23/oracle-to-tandem/t24-installation/index.md" },
+              { "T24 Run DEFGEN" = "implementation/23/oracle-to-tandem/t24-run-defgen/index.md" },
+            ]
+          },
+        ]
+      },
     ]
   },
 ]
@@ -397,8 +429,8 @@ generic = true
 [project.markdown_extensions.pymdownx.caret]
 [project.markdown_extensions.pymdownx.details]
 [project.markdown_extensions.pymdownx.emoji]
-emoji_generator = "zensical.extensions.emoji.to_svg"
 emoji_index = "zensical.extensions.emoji.twemoji"
+emoji_generator = "zensical.extensions.emoji.to_svg"
 [project.markdown_extensions.pymdownx.highlight]
 anchor_linenums = true
 line_spans = "__span"

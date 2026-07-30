@@ -1,3 +1,7 @@
+---
+icon: fontawesome/solid/house
+---
+
 # Dokumentasi Oracle GoldenGate
 
 Dokumentasi ini disusun sebagai basis pengetahuan Oracle GoldenGate (OGG) yang mudah dikembangkan. Materi dibagi menjadi tiga bagian besar:

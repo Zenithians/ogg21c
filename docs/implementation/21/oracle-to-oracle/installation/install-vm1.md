@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/server
+---
+
 # Instalasi OGG di VM1 (Source)
 
 ## Persiapan

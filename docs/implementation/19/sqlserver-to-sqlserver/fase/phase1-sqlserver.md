@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/file-arrow-down
+---
+
 # Install SQL Server 2019 & SSMS
 
 ## Download SQL Server 2019 Developer

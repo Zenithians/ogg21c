@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/route
+---
+
 # Distribution
 
 Distribution Service adalah komponen pada OGG Microservices Architecture yang mengirim trail file dari deployment source ke deployment target.

@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/triangle-exclamation
+---
+
 # Troubleshooting
 
 Kumpulan error yang ditemukan selama instalasi dan konfigurasi OGG 21.4 for SQL Server beserta solusinya.

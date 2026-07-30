@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/plug
+---
+
 # Instalasi ODBC Driver 17
 
 !!! warning "Versi Driver"

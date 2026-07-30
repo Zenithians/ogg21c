@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/bookmark
+---
+
 # Versi 21
 
 Bagian ini berisi implementasi Oracle GoldenGate versi 21.

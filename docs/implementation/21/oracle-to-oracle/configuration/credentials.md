@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/key
+---
+
 # Konfigurasi Credential OGG
 
 Credential OGG digunakan oleh Extract dan Replicat untuk login ke Oracle Database.

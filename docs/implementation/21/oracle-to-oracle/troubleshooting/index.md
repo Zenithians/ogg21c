@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/triangle-exclamation
+---
+
 # Troubleshooting
 
 Kumpulan error yang ditemui selama instalasi dan konfigurasi OGG 21c beserta solusinya.

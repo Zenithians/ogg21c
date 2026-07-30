@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/download
+---
+
 # Replicat (Target — VM2)
 
 Replicat adalah komponen OGG yang bertugas **membaca trail file** yang dikirim dari VM1 dan **mengaplikasikan perubahan** ke database target di VM2.

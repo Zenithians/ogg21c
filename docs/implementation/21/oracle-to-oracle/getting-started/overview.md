@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/file-lines
+---
+
 # Gambaran Umum
 
 ## Tujuan Dokumentasi

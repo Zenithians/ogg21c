@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/share
+---
+
 # Data Pump
 
 Data Pump adalah Extract tambahan yang membaca local trail di sisi source dan mengirimkannya ke target.

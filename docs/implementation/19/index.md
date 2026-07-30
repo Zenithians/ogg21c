@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/bookmark
+---
+
 # Versi 19
 
 Bagian ini disiapkan untuk implementasi Oracle GoldenGate versi 19.

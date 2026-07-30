@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/box-archive
+---
+
 # Instalasi OGG 21.4 for SQL Server
 
 ## Download OGG 21.4

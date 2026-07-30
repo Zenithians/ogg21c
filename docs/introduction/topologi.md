@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/network-wired
+---
+
 # Topologi
 
 Topologi OGG menggambarkan hubungan antara database source, proses replikasi, jaringan, dan database target.

@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/wand-magic-sparkles
+---
+
 # Kelebihan
 
 Oracle GoldenGate banyak dipakai karena fleksibel untuk berbagai skenario replikasi dan migrasi data.

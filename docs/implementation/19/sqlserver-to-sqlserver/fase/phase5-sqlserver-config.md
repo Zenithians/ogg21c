@@ -1,3 +1,7 @@
+﻿---
+icon: fontawesome/solid/sliders
+---
+
 # Konfigurasi SQL Server untuk OGG
 
 ## Aktifkan SQL Server Agent
