@@ -1,6 +1,4 @@
-﻿---
-icon: fontawesome/solid/file-contract
----
+﻿
 
 # Konfigurasi Lisensi & Hak Akses (License)
 

@@ -1,8 +1,4 @@
-﻿---
-icon: fontawesome/solid/bookmark
----
-
-# Versi 23
+﻿# Versi 23
 
 Bagian ini berisi implementasi Oracle GoldenGate versi 23.
 

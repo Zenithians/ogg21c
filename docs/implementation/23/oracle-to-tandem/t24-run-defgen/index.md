@@ -1,6 +1,4 @@
-﻿---
-icon: fontawesome/solid/file-code
----
+﻿
 
 # Menjalankan DEFGEN untuk Modul T24
 
@@ -61,7 +59,7 @@ FI 24 T24DEF.*
 
 Contoh output:
 ```
-$DATA24.T24DEF
+$DATA27.T24DEF
 
               CODE              EOF   LAST MODIFIED  OWNER  RWEP   PExt   SExt
 README         101                0 02JUL2026 16:10 202,255 GOGO     14     14

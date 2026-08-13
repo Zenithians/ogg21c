@@ -72,7 +72,6 @@ nav = [
     ]
   },
   { "Implementasi OGG" = [
-      { "Overview" = "implementation/index.md" },
       { "Versi 19" = [
           { "Overview" = "implementation/19/index.md" },
           { "SQL to SQL" = [
@@ -146,6 +145,7 @@ nav = [
               { "T24 Run DEFGEN" = "implementation/23/oracle-to-tandem/t24-run-defgen/index.md" },
             ]
           },
+          { "Comparison" = "implementation/23/comparison/index.md" },
         ]
       },
     ]

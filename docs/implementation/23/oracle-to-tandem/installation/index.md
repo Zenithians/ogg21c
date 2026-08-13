@@ -1,6 +1,4 @@
-﻿---
-icon: fontawesome/solid/box-archive
----
+﻿
 
 # Instalasi OGG pada HP NonStop (Tandem)
 
@@ -10,7 +8,7 @@ Panduan langkah demi langkah untuk melakukan unpak dan kompilasi modul utama Ora
 
 ## 1. Persiapan & Unpak Package
 
-Pastikan file installer (`GGSL06PK` dan `GGSUNPAK`) telah diunggah ke subvolume target (misalnya `$DATA24.GGS2326`).
+Pastikan file installer (`GGSL06PK` dan `GGSUNPAK`) telah diunggah ke subvolume target (misalnya `$DATA27.GGS2326`).
 
 ```tac
 -- Set file code GGSUNPAK menjadi 101 (TACL Code File)
@@ -18,8 +16,8 @@ FUP ALTER GGSUNPAK, CODE 101
 
 -- Verifikasi file
 FI
-\ARTA04.$DATA24 GGS2326 5> FI
-$DATA24.GGS2326
+\CNTH04.$DATA27 GGS2326 5> FI
+$DATA27.GGS2326
 
               CODE              EOF   LAST MODIFIED  OWNER  RWEP   PExt   SExt
 GGSL06PK         0         50610404 15JUN2026 11:39 201,255 GOGO     14    112
@@ -43,7 +41,7 @@ run GGSUNPAK
 ```
 
 Saat muncul konfirmasi:
-- **`Installing Oracle GoldenGate at $DATA24.GGS2326. Is this correct?(Y/N)`**: Jawab `Y`
+- **`Installing Oracle GoldenGate at $DATA27.GGS2326. Is this correct?(Y/N)`**: Jawab `Y`
 
 ---
 
@@ -60,7 +58,7 @@ Build of new GGSLIB recommended. Build now (Y/N)? Y
    - `Do you want to include your own User Library (Y/N)`: `N`
 2. **Lokasi AUDCFG**:
    - `Do you want to change the default location for the AUDCFG segment (Y/N)`: `Y`
-   - `Enter the new default AUDCFG location ($VOL.SUBVOL)`: `$DATA24.GGS`
+   - `Enter the new default AUDCFG location ($VOL.SUBVOL)`: `$DATA27.GGS`
 3. **Build Native Mode GGSLIBR & GGSSRL**:
    - `Build Native mode GGSLIBR & GGSSRL (Y/N)?`: `Y`
 4. **SQL Catalog Option**:

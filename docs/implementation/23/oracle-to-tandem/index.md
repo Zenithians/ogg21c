@@ -1,7 +1,4 @@
-﻿---
-icon: fontawesome/solid/database
----
-
+﻿
 # Oracle to Tandem
 
 Panduan ini menjelaskan instalasi dan konfigurasi Oracle GoldenGate 23c pada sistem HP NonStop (Tandem) untuk replikasi data dari Oracle Database ke Tandem/NSK.

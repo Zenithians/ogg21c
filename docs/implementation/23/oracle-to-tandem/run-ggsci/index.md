@@ -22,7 +22,7 @@ Oracle GoldenGate Command Interface
 Version 23.26.1.0.1 L06 2026-03-10 Optimized
 Copyright (C) 1995, 2026, Oracle and/or its affiliates. All rights reserved.
 
-GGSCI (\ARTA04) 1> env
+GGSCI (\CNTH04) 1> env
 ```
 
 Gunakan `exit` untuk keluar dari prompt GGSCI.
@@ -55,7 +55,7 @@ Jalankan kembali GGSCI dan cek environment untuk memastikan `DEFINE` sudah dimua
 ```tac
 run ggsci
 
-GGSCI (\ARTA04) 1> env
+GGSCI (\CNTH04) 1> env
 ```
 
 Pastikan pada bagian **Current Defines** sudah terdaftar:

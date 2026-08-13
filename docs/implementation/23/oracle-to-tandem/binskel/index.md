@@ -1,6 +1,4 @@
-﻿---
-icon: fontawesome/solid/terminal
----
+﻿
 
 # Konfigurasi BINDSKEL & Kompilasi SKELBN
 
@@ -10,7 +8,7 @@ Macro `BINDSKEL` digunakan untuk melakukan re-bind dan akselerasi library `SKELB
 
 ## 1. Memeriksa / Edit Skrip BINDSKEL
 
-Pastikan skrip `BINDSKEL` mengarah pada file `SKELB` dan `SKELBN` yang benar (misalnya di `$AUX01.XPNET.*`).
+Pastikan skrip `BINDSKEL` mengarah pada file `SKELB` dan `SKELBN` yang benar (misalnya di `$ZIT01.XPNET.*`).
 
 ```tac
 TEDIT BINDSKEL
@@ -69,11 +67,11 @@ RUN BINDSKEL
 ### Output yang Diharapkan:
 
 ```
-BINDER - OBJECT FILE BINDER - T9621H01   SYSTEM \ARTA04
+BINDER - OBJECT FILE BINDER - T9621H01   SYSTEM \CNTH04
 ...
-Object file \ARTA03.$AUX01.XPNET.SKELBN created successfully, accelerating code...
-OCAX /name, outv axcel_out/ \ARTA04.$AUX01.XPNET.SKELBN; UL
-Acceleration finished for \ARTA04.$AUX01.XPNET.SKELBN.
+Object file \CNTH03.$ZIT01.XPNET.SKELBN created successfully, accelerating code...
+OCAX /name, outv axcel_out/ \CNTH04.$ZIT01.XPNET.SKELBN; UL
+Acceleration finished for \CNTH04.$ZIT01.XPNET.SKELBN.
 ```
 
 ---
